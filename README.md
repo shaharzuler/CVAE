@@ -27,6 +27,33 @@ To prepare the dataset, use `create_cvae_dataset.py`. The `data_source` director
 
 Adjust the `data_source` and `target_dir` paths in the script and run it to generate the dataset, extracting features from the pyramid feature extractor.
 
+## Publication
+
+This work was published as a peer-reviewed book chapter:
+
+**[Systole-Conditioned Generative Cardiac Motion Using Deep Learning](https://www.intechopen.com/online-first/1242893)**  
+Shahar Zuler, Gal Lifshitz, Hadar Averbuch-Elor, and Dan Raviv  
+In *Artificial Intelligence in Medicine and Surgery – An Exploration of Current Trends, Potential Opportunities, and Evolving Threats, Volume 5*, IntechOpen, 2026.
+
+**DOI:** [10.5772/intechopen.1015635](https://doi.org/10.5772/intechopen.1015635)
+
+## Citation
+
+If you use this work or code, please cite:
+
+```bibtex
+@incollection{Zuler2026SystoleConditioned,
+  author    = {Zuler, Shahar and Lifshitz, Gal and Averbuch-Elor, Hadar and Raviv, Dan},
+  title     = {Systole-Conditioned Generative Cardiac Motion Using Deep Learning},
+  booktitle = {Artificial Intelligence in Medicine and Surgery: An Exploration of Current Trends, Potential Opportunities, and Evolving Threats, Volume 5},
+  editor    = {Stawicki, Stanislaw P. and Wojda, Thomas R.},
+  publisher = {IntechOpen},
+  address   = {London},
+  year      = {2026},
+  doi       = {10.5772/intechopen.1015635},
+  url       = {https://doi.org/10.5772/intechopen.1015635}
+}
+```
 
 ## Training
 
