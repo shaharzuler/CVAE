@@ -1,5 +1,10 @@
 # Systole-Conditioned Generative Cardiac Motion Using Deep Learning
 
+📖 **Published chapter:** [Systole-Conditioned Generative Cardiac Motion Using Deep Learning](https://www.intechopen.com/online-first/1242893)  
+*Artificial Intelligence in Medicine and Surgery, Volume 5*, IntechOpen, 2026.  
+[Project Page](https://shaharzuler.github.io/GenerativeCardiacMotion_Page/) · [DOI](https://doi.org/10.5772/intechopen.1015635)
+
+
 We present a method to generate synthetic 3D flow fields for myocardium deformation, conditioning on real cardiac CT frames using a Conditional Variational Autoencoder (CVAE). These synthetic data serve as ground truth annotations for training myocardium motion models. For a full explanation and results, visit the [project page](https://shaharzuler.github.io/GenerativeCardiacMotion_Page).
 
 ## Installation
