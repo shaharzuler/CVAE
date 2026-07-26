@@ -53,6 +53,8 @@ To perform inference using the trained model, run `infer.py`:
 1. **Random Sampling**: Samples latent vectors from a standard normal distribution, creating diverse outputs.
 2. **Grid Search**: Explores the latent space systematically by generating flow fields along a predefined grid of latent variables.
 3. **2D Plane Sampling**: Random sampling is restricted to a selected 2D plane within the latent space, allowing exploration of variations constrained to a specific slice of the latent distribution.
+The script will generate synthetic flow fields based on the latent space exploration, outputting the results in the specified path.
+
 
 ## Publication
 
@@ -82,5 +84,3 @@ If you use this work or code, please cite:
 }
 ```
 
-
-The script will generate synthetic flow fields based on the latent space exploration, outputting the results in the specified path.
